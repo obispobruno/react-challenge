@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Verdana";
+  padding: 4em 8em;
+  height: 100vh;
+  background-color: #8e6752;
+  color: #20221c;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  background-color: #f8f9fa;
+  border-radius: 0.5em;
+  height: 100%;
+}
+
+nav {
+  padding: 2em;
+  background-color: #c4c8bc;
+  border-radius: 0.5em;
+  height: 100%;
+  overflow-y: scroll;
+
+  div>input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5em;
+  }
+
+  ul {
+    margin-top: 1em;
+    list-style-type: none;
+    padding: 0;
+  }
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+section {
+  padding: 2em;
+}
+
+h1 {
+  margin: 0;
+}
